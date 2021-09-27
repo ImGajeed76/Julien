@@ -4,7 +4,7 @@ def mul(a, b):
     for i in range(len(a)):
         new_row = []
         for j in range(len(a[i])):
-            new_row.append(a[i][j] * b[i][j])
+            new_row.append(a[i][j] + b[i][j])
         c.append(new_row)
 
     return c
